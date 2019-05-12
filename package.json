@@ -1,4 +1,5 @@
 {
+  "main": "index.html",
   "scripts": {
     "serve": "NODE_ENV=development concurrently \"postcss tailwind.css -o dist/tailwind.css --watch\"  \"live-server .\"",
     "development": "NODE_ENV=development postcss tailwind.css -o dist/tailwind.css",
